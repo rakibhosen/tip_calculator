@@ -1,0 +1,128 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Cssd
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+/*native code.............*/
+body{
+	background-image: url(../img/calbg.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	position: center;
+
+}
+h1{
+	 text-align: center;
+    font-family: cursive;
+    padding: 20px 0;
+}
+#calculator {
+	padding: 10px 5px;
+}
+
+#billamount {
+}
+
+#totalpeople {
+}
+
+#calculate {
+}
+
+#totaltip {
+	font-size: 50px;
+	margin: 40px;
+}
+#totaltip:before{
+	content: 'Tips ammount';
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#totaltip  sup{
+	font-size: 24px;
+	top: -18px;
+}
+#totaltip  small{
+	font-size: 24px;
+font-weight: bold;
+}
+#each {
+}
+
+.container {
+	width: 30%;
+    height: auto;
+  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15%;
+    box-sizing: border-box;
+    background-image: url(../img/pattern.jpg);
+    margin-bottom: 100px;
+}
+form{
+	text-align: center;
+}
+form lebel{
+	display: block;
+	margin: 25px;
+	font-weight: bold;
+}
+form input,form select{
+	padding: 8px;
+	margin:10px 0;
+}
+form input[type="text"]{
+	width: 90px;
+}
+button{
+	background:#000;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 30px;
+	widows: 100%;
+	text-transform: uppercase;
+}
